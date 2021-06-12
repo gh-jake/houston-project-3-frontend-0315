@@ -62,7 +62,7 @@ const Contact = (props) => {
             <h1>{contact.name}</h1>
             {details}
             <hr/>
-            {detailFormFlag ? <DetailForm addDetail={addDetail} contact={contact}/> : <button onClick={toggleDetailForm}>+</button>}
+            {detailFormFlag ? <DetailForm addDetail={addDetail} contact={contact}/> : <button onClick={toggleDetailForm}>Add Detail</button>}
         </div>
     )
 }

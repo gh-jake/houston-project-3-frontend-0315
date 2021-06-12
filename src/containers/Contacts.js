@@ -54,7 +54,7 @@ const Contacts = () => {
                 {contactList}
             </ul>
             <br/><br/>
-            {contactFormFlag ? <ContactForm addContact={addContact}/> : <button onClick={toggleContactForm}>+</button>}
+            {contactFormFlag ? <ContactForm addContact={addContact}/> : <button onClick={toggleContactForm}>Add Contact</button>}
         </div>
     )
 }
